@@ -44,6 +44,7 @@ function SignUpForm({ onLogin }) {
           type="text"
           id="username"
           autoComplete="off"
+          defaultValue="Username..."
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
